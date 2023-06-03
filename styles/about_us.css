@@ -1,0 +1,82 @@
+/* About Us Header Start*/
+.about-us {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.about-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/about_us/header-about-us.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.5; /* Adjust the opacity value as needed */
+}
+
+.about-us-header {
+    position: relative;
+    z-index: 1;
+}
+
+.about-us .about-us-header::not(button){
+    width: 50%;
+    float: left;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center;
+    padding: 4rem;
+}
+.about-us .about-us-header h2{
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    line-height: 7rem;
+    color: var(--black);
+    text-shadow: var(--box-shadow);
+    text-transform: uppercase;
+}
+.about-us .about-us-header p{
+    font-size: 1.8rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+.about-us .about-us-header .about-us-btn{
+    height: 3rem;
+}
+.about-us .about-us-header .about-us-btn button{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2.4rem;
+    cursor: pointer;
+}
+.about-us .about-us-header .about-us-btn button:hover{
+    font-size: 2rem;
+}
+/* About Us Header End*/
+
+/* About Us Section Start */
+#about-us-section {
+    margin: 5vh 10vh 5vh 10vh;
+    scroll-margin-top: 5vh;
+}
+#about-us-section h2{
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+#about-us-section p{
+    margin-top: 5vh;
+    font-size: 2rem;
+    text-align: justify;
+    line-height: 4rem;
+}
+/* About Us Section End */
