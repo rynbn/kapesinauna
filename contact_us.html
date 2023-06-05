@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +7,10 @@
     <title>Kape Sina Una</title>
     <!-- Website Icon-->
     <link rel="icon" type="svg" href="images/website-icon.svg">
+
     <!--Link To CSS -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact_us.css">
 
     <!-- swiper link  -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -18,8 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-    <!-- header section start here  -->
+    <!-- header section start -->
     <header class="header">
         <div class="logoContent">
             <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
@@ -39,25 +39,38 @@
 
 
     </header>
-    <!-- header section end here  -->
+    <!-- header section end -->
 
-    <!-- home section start here  -->
-    <section class="home" id="home">
-        <div class="homeContent">
-            <h2>Start your day with a sip </h2>
-            <p>Let each sip be a reminder to cherish the small joys that make life extraordinary.</p>
-            <div class="home-btn">
-                <a href="menu.html"><button>Explore Menu</button></a>
+    
+
+    <!-- about us content start -->
+    <section class="contact-us-section" id="contact-us-section">
+        <div class="contact-us-content">
+            <div class="form-container">
+                <form>
+                    <h1>Contact Us</h1>
+                    <p>We look forward to hearing from you and serving you to the best of our abilities. Thank you for reaching out to us!</p>
+                    <span>Name</span>
+                    <input type="text" placeholder="Enter name">
+
+                    <span>Email</span>
+                    <input type="text" placeholder="Enter email">
+
+                    <span>Subject</span>
+                    <input type="text" placeholder="Enter subject">
+
+                    <span>Message</span>
+                    <textarea placeholder="Enter message"></textarea><br>
+                    
+                    <input class="btn" type="button" value="Submit">
+                </form>
             </div>
         </div>
     </section>
+    <!-- about us content end -->
 
-    <!-- home section end here  -->
-
-
-    <!-- footer section start here  -->
-
-    <footer class="footer">
+    <!-- footer section start -->
+    <footer class="footer" id="contact">
         <div class="box-container">
             <div class="mainBox">
                 <div class="content">
@@ -90,8 +103,7 @@
             Created By <span>Group 4 </span> | All Rights Reserved! 
         </div>
     </footer>
-
-
+    <!-- footer section end -->
 
     <!-- swiper js link  -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
