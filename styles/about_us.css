@@ -68,15 +68,44 @@
     margin: 5vh 10vh 5vh 10vh;
     scroll-margin-top: 5vh;
 }
-#about-us-section h2{
-    font-size: 3.5rem;
-    line-height: 4rem;
+#about-us-section .about-us-content h2{
+    margin-top: 4vh;
+    font-size: 3rem;
     text-transform: uppercase;
 }
-#about-us-section p{
-    margin-top: 5vh;
+#about-us-section .about-us-content p{
+    margin-top: 2vh;
     font-size: 2rem;
     text-align: justify;
     line-height: 4rem;
 }
+.mission-grid {
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-template-columns: 450px 450px; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 1rem 5rem; 
+    grid-template-areas: 
+    ". ."
+    ". ."; 
+    justify-items: center; 
+    justify-content: center;
+}
+.mission-grid .mission-content{
+    padding: 20px;
+}
+.mission-grid .mission-content .mission-img img{
+    margin-top: 2vh;
+    width: 450px;
+    height: 300px;
+}
+.mission-grid .mission-content h2 {
+    font-size: 2.5rem;
+}
+.mission-grid .mission-content p {
+    font-size: 2rem;
+    margin-top: 1vh;
+    text-align: justify;
+}
+
 /* About Us Section End */
